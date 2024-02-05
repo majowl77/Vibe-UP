@@ -4,7 +4,6 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
 
   font-synthesis: none;
@@ -20,8 +19,20 @@ body {
 }
 
 .sideBar {
-  background-color: #cec6c6;
   border-radius: 20px;
   height: 100%;
   width: 60%;
+}
+.MainContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bodyOfMainContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 120px;
 }

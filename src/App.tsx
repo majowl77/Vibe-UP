@@ -1,12 +1,10 @@
-import { useState } from "react";
-import viteLogo from "/vite.svg";
 import "./App.css";
-import SideBar from "./sideBar/SideBar";
+import MainContent from "./component/organisms/mainConent/MainContent";
 
 function App() {
   return (
     <div>
-      <SideBar />
+      <MainContent />
     </div>
   );
 }
